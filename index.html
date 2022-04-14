@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <meta name="description" content="The JavaScript Groceries project is using HTML, CSS and JavaScript in order to provide an open-source grocery list application">
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="author" content="Alisson Eduardo Bagnara">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    
+    <!-- Page Title -->
+    <title>JavaScript Groceries</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- JavaScript -->
+    <script type="module" src="js/script.js"></script>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="project">
+                <span class="name">Groceries</span>
+                <span class="description">HTML, CSS & JavaScript</span>
+            </div>
+
+            <div class="summary">
+                <span class="total">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i> 00.00
+                </span>
+                <span class="description">You are doing great</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Form -->
+    <section class="section">
+        <div class="container">
+            <form class="form">
+                <div class="fieldset">
+                    <i class="fa fa-sliders" aria-hidden="true"></i>
+                    <input type="number" id="quantity" name="quantity" min="1" placeholder="Quantity">
+                </div>
+                <div class="fieldset">
+                    <i class="fa fa-font" aria-hidden="true"></i>
+                    <input type="text" id="name" name="name" placeholder="Product">
+                </div>
+                <div class="fieldset">
+                    <i class="fa fa-tag" aria-hidden="true"></i>
+                    <input type="number" id="price" name="price" min="0" placeholder="Unit Price">
+                </div>
+                <button type="submit">Add Product</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="section">
+        <div class="container">
+            <ul class="products">
+                <span class="message textual">The JavaScript Groceries project is using HTML, CSS and JavaScript in order to provide an open-source grocery list application. The project was planned and created in the simplest way possible, and will now receive improvements as needed. It is a simple project to solve a simple problem!</span>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
